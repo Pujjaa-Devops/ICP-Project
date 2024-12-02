@@ -224,7 +224,7 @@ header .cart-item-container .btn{
 
 @media(max-width:991px){
 
-    menu-btn{
+    #menu-btn{
         display: inline-block;
     }
     
@@ -238,7 +238,7 @@ header .cart-item-container .btn{
     }
 
     .header .navbar.active{
-        
+        right: 0;
     }
 
     .header .navbar a{
