@@ -47,6 +47,14 @@ section{
     padding: 2rem 7%;
     
 }
+
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -221,6 +229,15 @@ section{
     text-transform: uppercase;
     color: #fff;
 }
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #eee;
+}
+
+
 
 
 
@@ -290,6 +307,20 @@ section{
         width: 90%;
         right: 2rem;
 
+    }
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
     }
 
 }
