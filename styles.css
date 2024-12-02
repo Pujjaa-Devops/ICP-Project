@@ -43,6 +43,10 @@ body{
     background: var(--bg);
 }
 
+section{
+    padding: 2rem 7%;
+    
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -203,8 +207,19 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background :url()no-repeat;
-    background-size: ;
+    background :url(./img/home-img.jpeg)no-repeat;
+    background-size:cover ;
+    background-position: center;
+
+}
+.home .content{
+    max-width: 60rem
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 
@@ -235,6 +250,11 @@ body{
     
     .header{
         padding: 1.5rem 2rem;
+    }
+
+    section{
+        padding: 2rem;
+        
     }
 
 }
