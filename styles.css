@@ -24,6 +24,7 @@ html{
     overflow: hidden;
     scroll-behavior: smooth;
     scroll-padding-top:9rem ;
+    overflow-y:auto ;
 }
 
 html::-webkit-scrollbar{
@@ -41,6 +42,7 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background: var(--bg);
+    overflow-x:hidden ;
 }
 
 section{
@@ -271,7 +273,7 @@ section{
     line-height: 1.8;
 }
 
-.box .circle-image {
+.box .circle-image{
     width: 100px; /* Adjust size */
     height: 100px;
     border-radius: 50%; /* Makes it a circle */
@@ -283,18 +285,50 @@ section{
 
 .menu .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+    justify-content: center;
+    
 }
+
+
 
 .menu .box-container .box{
    padding: 5rem;
    text-align: center;
    border: var(--border);
+   
 
 }
 
 .menu .box-container .box img{
+    height: 10rem;
+    
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.menu .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 5rem 0;
+}
+
+.menu .box-container .box .price .span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.menu .box-container .box:hover{
+    background :#fff;
+
+}
+
+.menu .box-container .box:hover > *{
+    color:var(--black);
     
 }
 
