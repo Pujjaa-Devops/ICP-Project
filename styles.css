@@ -465,7 +465,7 @@ section{
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background:var(--black);
+    background:var(--bg);
     border: var(--border);
 
 }
@@ -478,7 +478,11 @@ section{
 
 .contact .row form .inputBox input{
     width: 100%;
-    
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background:none;
 }
 
 
