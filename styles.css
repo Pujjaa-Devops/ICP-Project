@@ -624,6 +624,78 @@ section{
         padding: 2rem;
         
     }
+    .menu .box-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .menu .box-container .box {
+        padding: 3rem;
+    }
+
+    .menu .box-container .box h3 {
+        font-size: 1.8rem;
+    }
+
+    .menu .box-container .box .price {
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+
+    .menu .box-container .box img {
+        height: 8rem;
+    }
+    .products .box-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .products .box-container .box {
+        padding: 1.5rem;
+    }
+
+    .products .box-container .box .icons a {
+        height: 4rem;
+        width: 4rem;
+        font-size: 1.8rem;
+    }
+
+    .products .box-container .box .image img {
+        height: 20rem;
+    }
+
+    .products .box-container .box .content h3 {
+        font-size: 2rem;
+    }
+
+    .products .box-container .box .content .price {
+        font-size: 2rem;
+    }
+    .review .box-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .review .box-container .box {
+        padding: 2rem 1.5rem;
+    }
+
+    .review .box-container .box p {
+        font-size: 1.3rem;
+    }
+
+    .review .box-container .box h3 {
+        font-size: 1.8rem;
+    }
+
+    .review .box-container .box .stars i {
+        font-size: 1.3rem;
+    }
+
+    .review .box-container .box .user {
+        height: 6rem;
+        width: 6rem;
+    }
 
 }
 
@@ -673,6 +745,78 @@ section{
     .home .content p{
         font-size: 1.5rem;
     }
+    .menu .box-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .menu .box-container .box {
+        padding: 2.5rem;
+    }
+
+    .menu .box-container .box h3 {
+        font-size: 1.6rem;
+    }
+
+    .menu .box-container .box .price {
+        font-size: 1.8rem;
+        padding: 1.5rem 0;
+    }
+
+    .menu .box-container .box img {
+        height: 6rem;
+    }
+    .products .box-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .products .box-container .box {
+        padding: 1.2rem;
+    }
+
+    .products .box-container .box .icons a {
+        height: 3.5rem;
+        width: 3.5rem;
+        font-size: 1.6rem;
+    }
+
+    .products .box-container .box .image img {
+        height: 18rem;
+    }
+
+    .products .box-container .box .content h3 {
+        font-size: 1.8rem;
+    }
+
+    .products .box-container .box .content .price {
+        font-size: 1.8rem;
+    }
+    .review .box-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .review .box-container .box {
+        padding: 1.5rem 1rem;
+    }
+
+    .review .box-container .box p {
+        font-size: 1.2rem;
+    }
+
+    .review .box-container .box h3 {
+        font-size: 1.6rem;
+    }
+
+    .review .box-container .box .stars i {
+        font-size: 1.2rem;
+    }
+
+    .review .box-container .box .user {
+        height: 5rem;
+        width: 5rem;
+    }
 
 }
 
@@ -681,7 +825,75 @@ section{
     html{
         font-size: 50%;
     }
- 
+    .menu .box-container {
+        gap: 0.5rem;
+    }
+
+    .menu .box-container .box {
+        padding: 2rem;
+    }
+
+    .menu .box-container .box h3 {
+        font-size: 1.4rem;
+    }
+
+    .menu .box-container .box .price {
+        font-size: 1.6rem;
+        padding: 1rem 0;
+    }
+
+    .menu .box-container .box img {
+        height: 5rem;
+    }
+    .products .box-container {
+        gap: 0.5rem;
+    }
+
+    .products .box-container .box {
+        padding: 1rem;
+    }
+
+    .products .box-container .box .icons a {
+        height: 3rem;
+        width: 3rem;
+        font-size: 1.4rem;
+    }
+
+    .products .box-container .box .image img {
+        height: 15rem;
+    }
+
+    .products .box-container .box .content h3 {
+        font-size: 1.6rem;
+    }
+
+    .products .box-container .box .content .price {
+        font-size: 1.6rem;
+    }
+    .review .box-container {
+        gap: 0.5rem;
+    }
+
+    .review .box-container .box {
+        padding: 1rem;
+    }
+
+    .review .box-container .box p {
+        font-size: 1rem;
+    }
+
+    .review .box-container .box h3 {
+        font-size: 1.4rem;
+    }
+
+    .review .box-container .box .stars i {
+        font-size: 1rem;
+    }
+
+    .review .box-container .box .user {
+        height: 4rem;
+        width: 4rem;
+    }
 
 }
 
